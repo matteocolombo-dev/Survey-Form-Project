@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="uft-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Endurance Sports Survey Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="title" class="title"> Endurance Sports Survey Forms</h1>
+      <p id="description" class="description">Hi! I'm doing a survey on what endurance sport you play in life. Thank you so much for your contribution!</p>
+
+      <!--Form-->
+
+      <form action="example.html" method="post" id="survey-form">
+
+        <!--Personal Information-->
+
+        <fieldset class="personal-information">
+          <label for="name" id="name-label" >Name: <input type="text" id="name" name="name" placeholder="Enter your name" required></label>
+          
+          <label for="email" id="email-label">Email:<input type="email" id="email" name="email"  placeholder="Enter your email" required></label>
+          
+          <label for="number" id="number-label">Age: <input id="number" type="number" placeholder="Age" name="number" min="18" max="100" required></label>
+          
+        </fieldset>
+
+        <!--Dropdown-->
+      <div class="align">
+        <label class="question" for="dropdown">What kind of endurance sport do you practice now?
+        <select id="dropdown" name="type-sport">
+          <option value="select-option">Select an option</option>
+          <option value="run">Run</option>
+          <option value="bike">Bike</option>
+          <option value="swim">Swim</option>
+          <option value="triathlon">Triathlon</option>
+          <option value="none-of-these">None of these</option>
+        </select>
+        </label>
+      </div>
+        
+
+        <fieldset  id="frequency">
+          <legend class="question">How often do you practice physical activity or sports?</legend>
+
+          
+          <label for="never"><input  type="radio" name="frequency" id="never" value="never" class="inline" checked>Never</label>
+
+          
+          <label for="occasionally"><input  type="radio" name="frequency" id="occasionally" value="occasionally" class="inline">Occasionally (once in a while)</label>
+
+          
+          <label for="1-2-week"><input  type="radio" name="frequency" id="1-2-week" value="1-2-week" class="inline">1-2 times a week</label>
+
+          
+          <label for="3-4-week"><input  type="radio" name="frequency" id="3-4-week" value="3-4-week" class="inline">3-4 times a week</label>
+
+          
+          <label for="almost-every-day"><input  type="radio" name="frequency" id="almost-every-day" value="almost-every-day" class="inline">Almost every day</label>
+        </fieldset>
+        
+        
+        <fieldset id="personal-motivation">
+          <legend class="question">What are your personal motivations?</legend>
+
+          
+          <label for="health-wellness"><input  type="checkbox" name="personal-motivation" id="health-wellness" value="health-wellness" class="inline">I do it for health/wellness</label>
+
+          
+          <label for="competitions-events"><input  type="checkbox" name="personal-motivation" id="competitions-events" value="competitions-events" class="inline">I participate in competitions / events</label>
+
+          
+          <label for="fun"><input  type="checkbox" name="personal-motivation" id="fun" value="fun" class="inline">I do it for fun</label>
+
+          
+          <label for="test-my-self"><input  type="checkbox" name="personal-motivation" id="test-my-self" value="test-my-self" class="inline">To test myself</label>
+        </fieldset>
+        
+
+        <!--textarea-->
+        <div class="align textarea-container">
+          <label class="question" for="difficulties">What difficulties do you encounter in practicing endurance sports?</label>
+          <textarea id="difficulties" name="difficulties" placeholder="For example: lack of time, motivation, injuries..." rows="3" cols="40"></textarea>
+        </div>
+
+        <!--Submit-->
+
+        <button type="submit" id="submit">Submit</button>
+        
+    </div>
+      </form>
+  </body>
+
+</html>
