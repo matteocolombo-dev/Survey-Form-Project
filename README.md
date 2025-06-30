@@ -16,14 +16,14 @@ You can view the live version of the project here:
 - HTML5
 - CSS3
 
-- ## 🚀 Features
+## 🚀 Features
 
 - HTML5 semantic structure
 - Responsive layout with CSS
 - Accessible labels and input fields
 - Clean, user-friendly design
 
-- ## 🎓 Certification
+## 🎓 Certification
 
 This project is part of the **Responsive Web Design Certification** by [freeCodeCamp](https://www.freecodecamp.org/).
 
