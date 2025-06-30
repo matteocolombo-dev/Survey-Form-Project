@@ -27,14 +27,7 @@ You can view the live version of the project here:
 
 This project is part of the **Responsive Web Design Certification** by [freeCodeCamp](https://www.freecodecamp.org/).
 
-
-## ⚠️ Legal Notice
-
+## ⚠️ License and Legal Notice
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/matteocolombo-dev/Survey-Form-Project/blob/main/LICENSE) file for details.
 This project was created for educational purposes only, as part of the [freeCodeCamp](https://www.freecodecamp.org/) certification program.
 
-Some images and/or content used in this project were sourced from the internet and may be subject to copyright.  
-I do not claim ownership of them, and this project is **not intended for commercial use**.
-
-**If there are any copyright concerns, materials will be removed upon request.**
-
----
